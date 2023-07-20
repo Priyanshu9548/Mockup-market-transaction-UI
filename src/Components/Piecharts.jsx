@@ -30,8 +30,10 @@ const PieGraph = () => {
             <text x="50%" y="50%" textAnchor="middle" dominantBaseline="middle" fontSize={20}>
               {data1[0].value}%
             </text>
+            
           </PieChart>
         </ResponsiveContainer>
+        <p className="text-center text-gray-500  font-semibold ">Average</p>
       </div>
       <div style={{ width: "40%", height: 100, marginLeft: "8px" }}>
         <ResponsiveContainer>
@@ -55,6 +57,7 @@ const PieGraph = () => {
             </text>
           </PieChart>
         </ResponsiveContainer>
+        <p className="text-center text-gray-500  font-semibold ">Top</p>
       </div>
       <div style={{ width: "40%", height: 100, marginLeft: "8px" }}>
         <ResponsiveContainer>
@@ -78,6 +81,7 @@ const PieGraph = () => {
             </text>
           </PieChart>
         </ResponsiveContainer>
+        <p className="text-center text-gray-500  font-semibold">Me</p>
       </div>
     </div>
   );

@@ -34,12 +34,12 @@ const Profile = () => {
           </span>
         </div>
         <div className=" w-32 h-10 bg-blue-700 flex justify-center items-center rounded-xl mt-4 text-white">
-          <p className="flex justify-center items-center">
+          <button className="flex justify-center items-center">
             I want to{" "}
             <span>
               <BsFillCaretDownFill className="ml-2" />
             </span>
-          </p>
+          </button>
         </div>
       </div>
       <div className="ml-3">
