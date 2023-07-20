@@ -43,7 +43,7 @@ const Profile = () => {
         </div>
       </div>
       <div className="ml-3">
-        <p className="text-gray-700 text-medium font-bold mt-12 mb-4">
+        <p className="text-gray-700 text-lg font-bold mt-12 mb-4">
           Recent Transactions
         </p>
         <div>
