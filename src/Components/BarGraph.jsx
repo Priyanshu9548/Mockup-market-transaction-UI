@@ -29,9 +29,9 @@ const Chart_contributions = () => {
             <XAxis dataKey="name" />
             <YAxis tickFormatter={yTickFormatter} />
             <Tooltip />
-            <Bar dataKey="Data 1" stackId="a" fill="rgba(13, 71, 161)" />
-            <Bar dataKey="Data 2" stackId="a" fill="rgba(6, 95, 212)" />
-            <Bar dataKey="Data 3" stackId="a" fill="rgba(92, 153, 244)" />
+            <Bar dataKey="Data 1" stackId="a" fill="#0D47A1" />
+            <Bar dataKey="Data 2" stackId="a" fill="rgba(6, 57, 212)" />
+            <Bar dataKey="Data 3" stackId="a" fill="rgba(129, 180, 247)" />
             <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="rgba(204, 204, 204, 0.4)"  />
           </BarChart>
         </ResponsiveContainer>
