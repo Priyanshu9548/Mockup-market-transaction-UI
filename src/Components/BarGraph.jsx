@@ -3,20 +3,20 @@ import { BarChart, Bar, XAxis, YAxis,CartesianGrid, Tooltip, ResponsiveContainer
 
 const Chart_contributions = () => {
   const data = [
-    { name: "20", "Data 1": 10, "Data 2": 15, "Data 3": 20 },
-    { name: "", "Data 1": 15, "Data 2": 20, "Data 3": 25 },
-    { name: "25", "Data 1": 20, "Data 2": 25, "Data 3": 30 },
-    { name: "", "Data 1": 25, "Data 2": 30, "Data 3": 35 },
-    { name: "30", "Data 1": 30, "Data 2": 35, "Data 3": 40 },
-    { name: "", "Data 1": 35, "Data 2": 40, "Data 3": 45 },
-    { name: "35", "Data 1": 40, "Data 2": 45, "Data 3": 50 },
-    { name: "", "Data 1": 45, "Data 2": 50, "Data 3": 55 },
-    { name: "40", "Data 1": 50, "Data 2": 55, "Data 3": 60 },
-    { name: "", "Data 1": 55, "Data 2": 60, "Data 3": 65 },
-    { name: "60", "Data 1": 60, "Data 2": 65, "Data 3": 70 },
-    { name: "", "Data 1": 65, "Data 2": 70, "Data 3": 75 },
-    { name: "65", "Data 1": 70, "Data 2": 75, "Data 3": 80 },
-    { name: "", "Data 1": 75, "Data 2": 80, "Data 3": 85 },
+    { name: "20", "Employer": 10, "Employee 2": 15, "Total Interested": 20 },
+    { name: "", "Employer": 15, "Employee": 20, "Total Interested": 25 },
+    { name: "25", "Employer": 20, "Employee": 25, "Total Interested": 30 },
+    { name: "", "Employer": 25, "Employee": 30, "Total Interested": 35 },
+    { name: "30", "Employer": 30, "Employee": 35, "Total Interested": 40 },
+    { name: "", "Employer": 35, "Employee": 40, "Total Interested": 45 },
+    { name: "35", "Employer": 40, "Employee": 45, "Total Interested": 50 },
+    { name: "", "Employer": 45, "Employee": 50, "Total Interested": 55 },
+    { name: "40", "Employer": 50, "Employee": 55, "Total Interested": 60 },
+    { name: "", "Employer": 55, "Employee": 60, "Total Interested": 65 },
+    { name: "60", "Employer": 60, "Employee": 65, "Total Interested": 70 },
+    { name: "", "Employer": 65, "Employee": 70, "Total Interested": 75 },
+    { name: "65", "Employer": 70, "Employee": 75, "Total Interested": 80 },
+    { name: "", "Employer": 75, "Employee": 80, "Total Interested": 85 },
   ];
 
   const yTickFormatter = (value) => `${value}$`;
@@ -25,14 +25,14 @@ const Chart_contributions = () => {
     <div>
       <div className="mt-2" style={{ width: "100%", height: 250 }}>
         <ResponsiveContainer>
-          <BarChart data={data}>
+          <BarChart data={data} barSize={16} barGap={5}>
             <XAxis dataKey="name" />
             <YAxis tickFormatter={yTickFormatter} />
             <Tooltip />
-            <Bar dataKey="Data 1" stackId="a" fill="#0D47A1" />
-            <Bar dataKey="Data 2" stackId="a" fill="rgba(6, 57, 212)" />
-            <Bar dataKey="Data 3" stackId="a" fill="rgba(129, 180, 247)" />
-            <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="rgba(204, 204, 204, 0.4)"  />
+            <Bar dataKey="Employer" stackId="a" fill="#0D47A1" />
+            <Bar dataKey="Employee" stackId="a" fill="rgba(6, 57, 212)" />
+            <Bar dataKey="Total Interested" stackId="a" fill="rgba(129, 180, 247)" />
+            <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="rgba(204, 204, 204, 0.5)"  />
           </BarChart>
         </ResponsiveContainer>
       </div>
