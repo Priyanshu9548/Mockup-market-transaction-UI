@@ -29,7 +29,7 @@ const Profile = () => {
         </div>
       </div>
       <div className="ml-3">
-        <p className="text-gray-700 font-semibold md:mt-6 mt-20">Today</p>
+        <p className="text-gray-700 font-semibold md:mt-6 mt-12">Today</p>
         <div>
           <p className="text-4xl md:text-2xl font-extrabold md:mt-3 mt-6">$19,892</p>
           <span className="text-base text-gray-500 opacity-70">
@@ -61,7 +61,7 @@ const Profile = () => {
       </div>
       <div className="ml-3 ">
 
-        <p className="text-gray-700 text-lg font-bold md:mt-12 mt-20 mb-4">
+        <p className="text-gray-700 text-lg font-bold md:mt-12 mt-12 mb-4 md:mb-4">
           Recent Transactions
         </p>
         <div>

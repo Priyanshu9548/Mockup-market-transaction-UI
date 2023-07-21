@@ -39,8 +39,8 @@ const Strategy = () => {
         </div>
       </div>
       <div>
-        <div className="mt-6  flex justify-center items-center">
-          <button className="md:w-11/12 md:h-8 w-full h-12  bg-blue-700 rounded-lg text-white">
+        <div className="mt-6  flex justify-center items-center ">
+          <button className="md:w-11/12 md:h-8 w-full h-12  bg-blue-700 rounded-lg text-white md:mb-0 mb-6">
             Update{" "}
           </button>
         </div>
