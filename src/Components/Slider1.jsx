@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Slider2 = () => {
-  const [value, setValue] = useState(65);
+  const [value, setValue] = useState(12);
 
   const handleChange = (e) => {
     setValue(e.target.value);
