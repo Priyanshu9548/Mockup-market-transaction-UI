@@ -7,12 +7,13 @@ import Strategy from "../Components/Strategy";
 const Home = () => {
   return (
     <div className="bg-gray-300 w-screen h-screen flex flex-col">
-      <div className="bg-white flex flex-grow rounded-2xl m-2 relative">
+      <div className="bg-white flex flex-grow rounded-2xl  relative">
         <Menu />
-        <div className="flex mt-12">
+        
+        <div className="md:flex mt-12">
           <Profile />
           <Retirement />
-          <div className="mt-2">
+          <div className="md:mt-2 mt-10 md:ml-0 ml-6">
             <Strategy />
           </div>
         </div>

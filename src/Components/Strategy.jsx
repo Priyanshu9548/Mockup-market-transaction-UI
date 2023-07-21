@@ -5,9 +5,9 @@ import Slider2 from "./Slider2";
 import { MdNavigateNext } from "react-icons/md";
 const Strategy = () => {
   return (
-    <div className="ml-16">
+    <div className="md:ml-16 ml-3 ">
       <div>
-        <p className="text-lg font-semibold text-gray-700 opacity-90">
+        <p className="text-lg font-semibold text-gray-700 opacity-90 ">
           Strategy
         </p>
       </div>
@@ -26,7 +26,7 @@ const Strategy = () => {
         <div>
           <Slider2 />
         </div>
-        <hr className="w-56 mt-5" />
+        <hr className="md:w-56 w-full flex justify-center items-center  mt-5" />
       </div>
       <div className="flex gap-8 mt-4 font-semibold text-medium ">
         <div className="  space-y-4 ">
@@ -40,21 +40,24 @@ const Strategy = () => {
       </div>
       <div>
         <div className="mt-6  flex justify-center items-center">
-          <button className="w-11/12 h-8  bg-blue-700 rounded-lg text-white">
+          <button className="md:w-11/12 md:h-8 w-full h-12  bg-blue-700 rounded-lg text-white">
             Update{" "}
           </button>
         </div>
+        <div className="hidden md:block">
         <div className="flex justify-center items-center mt-4 text-blue-500">
           <span>View Help Docs </span>
           <span>
             <MdNavigateNext />
           </span>
         </div>
-        <div className="mt-4 flex">
+        </div>
+        <div className="hidden md:block">
+        <div className="mt-4 flex ">
           <div className="w-1 h-24 rounded-md bg-blue-500" >
           
           </div>
-          <div className="ml-3">
+          <div className="ml-3 ">
           <p>
             Are you Considering a <br />
             <p className="font-bold">Housing Advance?</p>
@@ -65,9 +68,10 @@ const Strategy = () => {
           <div className="flex text-blue-500  items-center">
             {" "}
             <p>Learn More</p>
-            <span>
+            <span className="">
               <MdNavigateNext />
             </span>
+          </div>
           </div>
           </div>
         </div>

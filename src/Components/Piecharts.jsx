@@ -10,7 +10,7 @@ const COLORS = ["#00DFA2", "#9BE8D8"]; // Change #FF0000 to your highest color
 const PieGraph = () => {
   return (
     <div className="flex mt-4">
-      <div style={{width: "40%", height: 100, marginLeft: "8px"  }}>
+      <div style={{width: "100px", height: 100, }}>
         <ResponsiveContainer>
           <PieChart>
             <Pie
@@ -35,7 +35,7 @@ const PieGraph = () => {
         </ResponsiveContainer>
         <p className="text-center text-gray-500  font-semibold ">Average</p>
       </div>
-      <div style={{ width: "40%", height: 100, marginLeft: "8px" }}>
+      <div style={{ width: "100px", height: 100,  }}>
         <ResponsiveContainer>
           <PieChart>
             <Pie
@@ -59,7 +59,7 @@ const PieGraph = () => {
         </ResponsiveContainer>
         <p className="text-center text-gray-500  font-semibold ">Top</p>
       </div>
-      <div style={{ width: "40%", height: 100, marginLeft: "8px" }}>
+      <div style={{ width: "100px", height: 100, }}>
         <ResponsiveContainer>
           <PieChart>
             <Pie

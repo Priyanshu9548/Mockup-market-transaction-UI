@@ -1,6 +1,7 @@
+
 import React, { useState } from "react";
 
-const Slider = () => {
+const Slider2 = () => {
   const [value, setValue] = useState(12);
 
   const handleChange = (e) => {
@@ -34,4 +35,5 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default Slider2;
+

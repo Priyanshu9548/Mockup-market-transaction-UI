@@ -24,7 +24,7 @@ const Chart_contributions = () => {
   return (
     <div>
       <div className="mt-2" style={{ width: "100%", height: 250 }}>
-        <ResponsiveContainer>
+        <ResponsiveContainer width="100%" >
           <BarChart data={data} barSize={16} barGap={5}>
             <XAxis dataKey="name" />
             <YAxis tickFormatter={yTickFormatter} />
