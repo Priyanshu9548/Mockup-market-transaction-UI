@@ -1,8 +1,7 @@
-
 import React, { useState } from "react";
 
 const Slider2 = () => {
-  const [value, setValue] = useState(12);
+  const [value, setValue] = useState(65);
 
   const handleChange = (e) => {
     setValue(e.target.value);
@@ -13,8 +12,8 @@ const Slider2 = () => {
   };
 
   return (
-    <div className="flex items-center">
-      <div className="flex-grow relative">
+    <div className="flex flex-row items-center md:flex-row md:items-center">
+      <div className="w-full md:w-52 relative">
         <div
           className="h-1 md:w-52 w-64 bg-gray-200 rounded-md"
           style={sliderBackground}
@@ -30,10 +29,9 @@ const Slider2 = () => {
           />
         </div>
       </div>
-      <span className="ml-2 text-gray-700 font-semibold">{value}%</span>
+      <span className="mt-2 md:mt-0 ml-2 text-gray-700 font-semibold">{value}%</span>
     </div>
   );
 };
 
 export default Slider2;
-
