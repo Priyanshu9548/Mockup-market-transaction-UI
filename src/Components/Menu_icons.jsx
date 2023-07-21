@@ -24,7 +24,7 @@ const Menu_icons = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-2 left-2 text-gray-500 space-y-5 text-xl ml-4">
+        <div className="absolute bottom-2 left-2 text-gray-500 space-y-7 text-xl ml-4">
           <div className="hidden md:block">
           <div className="w-2 h-2 bg-blue-500 rounded-full absolute  left-4 " />
           <IoMdNotificationsOutline className="" /></div>
