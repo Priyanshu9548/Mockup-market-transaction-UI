@@ -13,7 +13,7 @@ const Home = () => {
         <div className="md:flex mt-12">
           <Profile />
           <Retirement />
-          <div className="md:mt-2 mt-10 md:ml-0 ml-6">
+          <div className="md:mt-2 mt-16 md:ml-0 ml-6">
             <Strategy />
           </div>
         </div>

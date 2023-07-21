@@ -15,7 +15,7 @@ const Slider2 = () => {
     <div className="flex items-center">
       <div className="flex-grow relative">
         <div
-          className="h-1 w-full bg-gray-200 rounded-md"
+          className="h-1 md:w-52 w-64 bg-gray-200 rounded-md"
           style={sliderBackground}
         >
           <input

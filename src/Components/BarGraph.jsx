@@ -22,7 +22,7 @@ const Chart_contributions = () => {
   const yTickFormatter = (value) => `${value}$`;
 
   return (
-    <div>
+    <div className="flex justify-center items-center">
       <div className="mt-2" style={{ width: "100%", height: 250 }}>
         <ResponsiveContainer width="100%" >
           <BarChart data={data} barSize={16} barGap={5}>

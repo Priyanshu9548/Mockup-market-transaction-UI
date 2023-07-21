@@ -38,7 +38,7 @@ const Chart_contributions = () => {
           </div>
           <div className="md:flex">
             <div className="flex">
-              <div className="space-y-2 mt-6 md:w-40 w-56">
+              <div className="space-y-6 md:space-y-2 mt-6 md:w-40 w-56">
                 <span className="flex gap-2  text-gray-600">
                   <p className="font-semibold ">Age:</p>
                   <p className="md:ml-0 ml-6">Under 30</p>
@@ -46,7 +46,7 @@ const Chart_contributions = () => {
                     <BsFillCaretDownFill />
                   </span>
                 </span>
-                <hr  />
+                <hr   />
                 <span className="flex gap-2 text-gray-600">
                   <p className="font-semibold ">Salary:</p>
                   <p className="md:ml-0 ml-6">K 20-K 30</p>
