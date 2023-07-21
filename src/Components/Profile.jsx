@@ -2,8 +2,10 @@ import React from "react";
 import profile from "../assets/images/profile.jpg";
 import { BsFillCaretDownFill } from "react-icons/bs";
 import { IoMdNotificationsOutline } from "react-icons/io";
+import Navbar from "./Navbar_mobile";
 const Profile = () => {
   return (
+    <div>
     <div className="md:ml-16 ml-3">
       <div className="md:hidden  ">
       <div className="md:mr-3 mr-3">
@@ -58,7 +60,7 @@ const Profile = () => {
         </div>
       </div>
       <div className="ml-3 ">
-      
+
         <p className="text-gray-700 text-lg font-bold md:mt-12 mt-20 mb-4">
           Recent Transactions
         </p>
@@ -93,6 +95,10 @@ const Profile = () => {
         </div>
       </div>
     </div>
+      <div>
+        <Navbar/>
+      </div>
+      </div>
   );
 };
 
