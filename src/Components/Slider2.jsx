@@ -29,7 +29,7 @@ const Slider2 = () => {
           />
         </div>
       </div>
-      <span className=" md:mt-0 ml-2 text-gray-700 font-semibold">{value}</span>
+      <span className=" md:mt-0 md:ml-3 ml-6 text-gray-700 font-semibold">{value}</span>
     </div>
   );
 };
